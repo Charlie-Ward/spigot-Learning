@@ -1,5 +1,5 @@
 name: testPlugin
-version: '0.0.18'
+version: '0.0.19'
 main: com.charlie.test.Main
 api-version: '1.16'
 author: LousyBoi

@@ -3,3 +3,5 @@ version: '${project.version}'
 main: com.charlie.test.Main
 api-version: '1.16'
 author: LousyBoi
+commands:
+  heal:

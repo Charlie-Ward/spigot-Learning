@@ -1,8 +1,8 @@
 name: testPlugin
-version: '0.0.20.5'
+version: '0.0.21'
 main: com.charlie.test.Main
 api-version: '1.16'
 author: LousyBoi
 commands:
-  config:
+  test:
 

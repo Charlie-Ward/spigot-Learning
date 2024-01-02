@@ -7,6 +7,10 @@ public final class Main extends JavaPlugin implements Listener {
 
     @Override
     public void onEnable() {
-        getCommand("test").setExecutor(new testCommand());
+
+        getConfig().options().copyDefaults();
+        saveDefaultConfig();
+
+        getCommand("config").setExecutor(new ConfigCommand(this));
     }
 }

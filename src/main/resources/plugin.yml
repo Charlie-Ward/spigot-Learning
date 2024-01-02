@@ -4,4 +4,5 @@ main: com.charlie.test.Main
 api-version: '1.16'
 author: LousyBoi
 commands:
-  test:
+  config:
+
